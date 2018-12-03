@@ -5,7 +5,8 @@
 
 * {
     font-family: 'bodoni', serif;
-    color: #5b636e;
+    --main-text-color: #808080;
+    color: var(--main-text-color);
 }
 
 h1, h2, h3 {
@@ -13,15 +14,19 @@ h1, h2, h3 {
 }
 
 a {
-    color: #5b636e;
+    color: var(--main-text-color);
     text-decoration: none;
     font-family: 'Arial Light', sans-serif;
     font-weight: thin;
 }
 
 header {
-    margin-top: 10%;
+    margin-top: 5%;
     margin-right: 25%;
+    margin-left: 5%;
+    padding-bottom: 2%;
+    max-width: 500px;
+    border-bottom: .5px solid #808080;
 }
 
 footer {
@@ -36,6 +41,7 @@ footer {
     font-size: 1.25rem;
     display: flex;
     justify-content: space-around;
+    padding-bottom: 3%;
 }
 
 .page-nav {
