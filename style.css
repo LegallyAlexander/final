@@ -20,7 +20,8 @@ a {
 }
 
 header {
-    display: inline;
+    margin-top: 10%;
+    margin-right: 25%;
 }
 
 footer {
@@ -29,4 +30,16 @@ footer {
 
 #current-page {
     color: #f15c6a;
+}
+
+.main-nav{
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.page-nav {
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-around;
 }
