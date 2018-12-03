@@ -1,18 +1,32 @@
 @font-face{
-    font-family: "bodoni";
-    src: url("bodoni/bodoni/BodoniSvtyTwolITCTTBook.woff") format("woff"),
-    url("bodoni/bodoni/BodoniSvtyTwolITCTTBook.eot") format("opentype");
+    font-family: 'bodoni';
+    src: url(bodoni/bodoni/BodoniSvtyTwolITCTTBook.woff) format("woff");
 }
 
 * {
-    font-family: "bodoni", serif;
+    font-family: 'bodoni', serif;
+    color: #5b636e;
 }
 
-h1 h2 h3 {
+h1, h2, h3 {
     color: #f15c6a;
 }
 
 a {
-    color: grey;
+    color: #5b636e;
     text-decoration: none;
+    font-family: 'Arial Light', sans-serif;
+    font-weight: thin;
+}
+
+header {
+    display: inline;
+}
+
+footer {
+    background-color: #a6b8bd;
+}
+
+#current-page {
+    color: #f15c6a;
 }
