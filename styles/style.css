@@ -1,0 +1,13 @@
+@font-face{
+    font-family: "bodoni";
+    src: url("bodoni/bodoni/BodoniSvtyTwolITCTTBook.woff") format("woff"),
+    url("bodoni/bodoni/BodoniSvtyTwolITCTTBook.eot") format("opentype");
+}
+
+* {
+    font-family: "bodoni", serif;
+}
+
+h1 h2 h3 {
+    color: #f15c6a;
+}
