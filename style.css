@@ -81,6 +81,10 @@ article {
     border: 10px solid #a6b8bd;
 }
 
+.course{
+    padding: 5px;
+}
+
 /*the program*/
 
 #theprogram{
@@ -88,7 +92,6 @@ article {
     display: grid;
     grid-template-columns: repeat(15, 1fr);
     grid-template-rows: repeat(7, 1fr);
-    padding: 5px;
 }
 
 #theprogram>img{
@@ -128,9 +131,68 @@ article {
     grid-row-end: 3;
 }
 
+/* like what you see? */
 
+#cliche-ad{
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
 
+#cliche-ad>img{
+    grid-column-start: 6;
+    grid-column-end: 15;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
 
+#cliche-ad>div{
+    grid-column-start: 3;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+/* center layout */
+
+.center-layout{
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.center-c-title{
+   grid-column-start: 3;
+   grid-column-end: 10;
+   grid-row-start: 1;
+   grid-row-end: 2; 
+}
+
+.center-layout>article{
+    grid-column-start: 3;
+    grid-column-end: 12;
+    grid-row-start: 2;
+    grid-row-end: 5; 
+}
+
+/* right layout */
+
+.right-layout{
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.right-layout>img{
+    grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row-start: 2;
+    grid-row-end: 8;
+}
+
+.right-c-title{
+    
+}
 
 /*footer*/
 
